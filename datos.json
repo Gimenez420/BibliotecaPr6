@@ -1,0 +1,57 @@
+{
+    "libros": [
+        {
+            "isbn": "1",
+            "titulo": "El quijote",
+            "autor": "Cervantes"
+        },
+        {
+            "isbn": "2",
+            "titulo": "Wigeta",
+            "autor": "Willirex y Vegeta"
+        },
+        {
+            "isbn": "3",
+            "titulo": "El libro troll",
+            "autor": "ElRubius"
+        },
+        {
+            "isbn": "4",
+            "titulo": "Mi libro, luna de pluton",
+            "autor": "Dross"
+        },
+        {
+            "isbn": "5",
+            "titulo": "Never ending story",
+            "autor": "Yo"
+        }
+    ],
+    "usuarios": [
+        {
+            "id": 1,
+            "nombre": "Ricardo",
+            "max_prestamos": 3
+        },
+        {
+            "id": 2,
+            "nombre": "Jose",
+            "max_prestamos": 3
+        },
+        {
+            "id": 3,
+            "nombre": "Mario",
+            "max_prestamos": 3
+        },
+        {
+            "id": 4,
+            "nombre": "Cintia",
+            "max_prestamos": 3
+        },
+        {
+            "id": 5,
+            "nombre": "Maria",
+            "max_prestamos": 3
+        }
+    ],
+    "prestamos": []
+}
