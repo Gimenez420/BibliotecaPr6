@@ -5,10 +5,12 @@ def valodar_campos(*campos):
         def wrapper(self, *args, **kwargs):
             
             for campo in campos:
-                if campo not in None or campo == "":
+                valor = getattr(self, campo, None)
+                
+                if valor is None or valor == "":
                     raise ValueError(f"Falta el campo: {campo}")
             
-            return funcion(self,*args, **kwargs)
+            return funcion(self, *args, **kwargs)
         
         return wrapper
     
